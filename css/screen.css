@@ -1,0 +1,30 @@
+html{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+    color: #111;
+    padding: 24px 24px 0;
+}
+
+::-moz-selection{
+    background: #44C8F5;
+    color: white;
+    text-shadow: none;
+}
+
+::selection{
+    background: #44C8F5;
+    color: white;
+    text-shadow: none;
+}
+
+/*
+    Elements: Images
+    ---
+    Default markup for images to make them responsive
+*/
+
+img {
+    max-width: 100%;
+    vertical-align: top;
+}
