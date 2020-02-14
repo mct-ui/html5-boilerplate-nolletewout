@@ -138,7 +138,14 @@ a:active {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+    h1{
+        font-size: 58px;
+        line-height: 64px;
+    }
 
+    html{
+        padding: 48px 48px 24px;
+    }
 }
 
 /* Large devices (landscape tablets, desktops, 992px and up) */
